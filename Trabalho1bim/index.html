@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="py-5">
+    <div class="container px-2 formBody">
+        <div class="input-group-text mb-4">
+            <span>Digite os nomes: </span>
+            <input type="text" id="searchField" class="form-control" placeholder="Pesquise:">
+        </div>
+
+        <div class="botoes">
+            <button id="add" class="btn btn-outline-danger">Adicionar</button>
+            <button id="remove" class="btn btn-outline-danger">Remover</button>
+            <button id="filt" class="btn btn-outline-danger">Filtrar</button>
+        </div>
+
+        <pre class="paragraph text-center text-dark" id="mensagem"></pre>
+
+        <ul id="list" class="list-group list-group-flush"></ul>
+
+        <div class="container footer text-center ">
+            <p>&copy;Copyright - by Carla_S2.</p>
+        </div>
+
+    </div>
+
+    <script src="lista.js"></script>
+    
+</body>
+</html>
