@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página</title>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!--Comentarios de dódigos html-->
+    <header> 
+        <nav> 
+            <p>IFPR viagens</p> <!--parágrafo-->
+            <ul> <!--Outros links p outras pag-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="header-content" >
+             <h1>Monte Fuji </h1> <!-- Título-->>
+             <p> Conheça o monte Fuji, veja as belezas naturais desse lugar!</p>
+             <button> Saiba mais </button>
+        </div>
+    </header>
+    <section id= "pacotes" class= "pacotes">
+        <h1 class="pacotes-title">Conheça nossos pacotes de Viagem!!</h1>
+        <div class="pacotes-cards">
+            <div class="card">
+                <div class="card-tag card-tag-top">
+                    <p>Promoção!!!</p>
+                </div>
+                <div class="card-tag card-tag-bottom">
+                    <p>R$ 1.900,00</p>
+                </div> <!--Colocar imagem(usando o link) (o alt="" é pra deixar um nome quando a imagem n carregar)-->
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Paris_vue_d%27ensemble_tour_Eiffel.jpg/1280px-Paris_vue_d%27ensemble_tour_Eiffel.jpg" alt="Paris">
+                <div class="card-content">
+                    <h1>Pacote 5 Noites Hotel - Paris</h1>
+                    <ul>
+                        <li><i data-feather="coffee"></i>Café da Manhã incluso</li>
+                        <li><i data-feather="wifi"></i>Wifi</li>
+                        <li><i data-feather="briefcase"></i>Pet friendly</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-tag card-tag-top">
+                    <p>Ultimas vagas!</p>
+                </div>
+                <div class="card-tag card-tag-bottom">
+                    <p>R$ 1.500,00</p>
+                </div> <!--Colocar imagem(usando o link) (o alt="" é pra deixar um nome quando a imagem n carregar)-->
+                <img class="card-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/16/a6/88/con-la-primavera-in-giappone.jpg?w=700&h=-1&s=1" alt="Paris">
+                <div class="card-content">
+                    <h1>Pacote 5 Noites Hotel - fuji</h1>
+                    <ul>
+                        <li><i data-feather="coffee"></i>Café da Manhã incluso</li>
+                        <li><i data-feather="wifi"></i>Wifi</li>
+                        <li><i data-feather="briefcase"></i>Pet friendly</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-tag card-tag-top">
+                    <p>Promoção!!!</p>
+                </div>
+                <div class="card-tag card-tag-bottom">
+                    <p>R$ 1.000,00</p>
+                </div> <!--Colocar imagem(usando o link) (o alt="" é pra deixar um nome quando a imagem n carregar)-->
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Villa_from_the_gardens_-_Vizcaya_Museum_and_Gardens_-_Miami%2C_Florida_-_DSC08678.jpg/1280px-Villa_from_the_gardens_-_Vizcaya_Museum_and_Gardens_-_Miami%2C_Florida_-_DSC08678.jpg" alt="Paris">
+                <div class="card-content">
+                    <h1>Pacote 5 Noites Hotel - havai</h1>
+                    <ul>
+                        <li><i data-feather="coffee"></i>Café da Manhã incluso</li>
+                        <li><i data-feather="wifi"></i>Wifi</li>
+                        <li><i data-feather="briefcase"></i>Pet friendly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id= "servicos" class= "servicos">
+        <h1 class="servicos-tittle">Serviços</h1>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h3>Tours Guiados</h3>
+                    <p>Os tours guiados são passeios realizados com auxílio de um guia, que além de dar informações sobre o local conduz o passeio!</p>
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="camera"></i>
+                <div class="card-content">
+                    <h3>Fotografia profissional</h3>
+                    <p>Esse tipo de fotografia é aquela feita por profissionais do ramo, que exercem essa função como a sua principal ocupação, como um meio de vida, ou seja, a fotografia é sua principal atividade no dia a dia.</p>
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="navigation"></i>
+                <div class="card-content">
+                    <h3>Aluguel de veículo</h3>
+                    <p>Os tours guiados são passeios realizados com auxílio de um guia, que além de dar informações sobre o local conduz o passeio!</p>
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section id= "contato" class= "contato">
+        <div class="contato-card">
+            <h1>Entre em Contato</h1>
+            <ul>
+                <li><i data-feather="coffee"></i>Av. das Pombas, 8080</li>
+                <li><i data-feather="mail"></i>contato@ifprviagens.br</li>
+                <li><i data-feather="phone"></i>(45)9999-9999</li>
+            </ul>
+        </div>
+        <div id= "map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13015.197565360633!2d138.71706366263342!3d35.36062456307543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019629a42fdc899%3A0xa6a1fcc916f3a4df!2sMonte%20Fuji!5e0!3m2!1spt-BR!2sbr!4v1679496357501!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script>
+      feather.replace()
+    </script>
+</body>
+</html>
